@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220727 17:34:53.324" rpa="false" schemaversion="3">
+<suite id="s1" name="createUserscenarios" source="C:\Users\dtyjdtyjdyt\PycharmProjects\ObaProject\Test\createUserscenarios.robot">
+<kw name="Navigate to login page" type="SETUP">
+<msg timestamp="20220727 17:34:54.417" level="FAIL">No keyword with name 'Navigate to login page' found.</msg>
+<status status="FAIL" starttime="20220727 17:34:54.417" endtime="20220727 17:34:54.417"/>
+</kw>
+<test id="s1-t1" name="User should be able to create account" line="11">
+<status status="FAIL" starttime="20220727 17:34:54.417" endtime="20220727 17:34:54.417">Parent suite setup failed:
+No keyword with name 'Navigate to login page' found.</status>
+</test>
+<test id="s1-t2" name="Add new address for users" line="24">
+<tag>data</tag>
+<status status="FAIL" starttime="20220727 17:34:54.433" endtime="20220727 17:34:54.433">Parent suite setup failed:
+No keyword with name 'Navigate to login page' found.</status>
+</test>
+<doc>test suite for april 2022 testers</doc>
+<status status="FAIL" starttime="20220727 17:34:53.324" endtime="20220727 17:34:54.433">Suite setup failed:
+No keyword with name 'Navigate to login page' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">data</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="createUserscenarios">createUserscenarios</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220727 17:34:53.683" level="ERROR">Error in file 'C:\Users\dtyjdtyjdyt\PycharmProjects\ObaProject\Test\createUserscenarios.robot' on line 4: Resource file 'myFirstRobotkeyword.robot' does not exist.</msg>
+<msg timestamp="20220727 17:34:53.683" level="ERROR">Error in file 'C:\Users\dtyjdtyjdyt\PycharmProjects\ObaProject\Test\createUserscenarios.robot' on line 5: Resource file 'myFirstRobotVariable.robot' does not exist.</msg>
+</errors>
+</robot>
